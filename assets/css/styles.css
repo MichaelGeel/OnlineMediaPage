@@ -1,0 +1,65 @@
+/* Colours:
+
+#C9A7CF - Light Violet
+#805789 - Violet
+#F5E2F9 - Light Pink
+#FFFFFF - White
+#471850 - Deep Purple
+#2C0733 - Dark Purple
+#000000 - Black
+
+Fonts:
+
+--Headers:
+
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+--Body:
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+*/
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.header-container {
+    background-color: #F5E2F9;
+    width: 100%;
+    height: 400px;
+}
+
+.np-name {
+    margin: 0;
+    color: #2C0733;
+    font-size: 100px;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title-item > img {
+    background-color: #F5E2F9;
+    height: 100px;
+}

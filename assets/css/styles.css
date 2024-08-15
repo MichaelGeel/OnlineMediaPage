@@ -48,18 +48,61 @@ body {
     background-color: #F5E2F9;
     width: 100%;
     height: 400px;
+    display: grid;
+    grid-template: 300px 100px / 100%;
+}
+
+.title-item {
+  display: grid;
+  grid-template: 3fr 5fr 5fr / 100%;
+  justify-self: center;
 }
 
 .np-name {
     margin: 0;
     color: #2C0733;
-    font-size: 100px;
     font-family: "Rye", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.name-sub {
+  align-self: end;
+  font-size: 2.5rem;
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+
+.name-main {
+  justify-self: center;
+  font-size: 115px;
+}
+
 .title-item > img {
     background-color: #F5E2F9;
     height: 100px;
+    justify-self: center;
+}
+
+.navbar-container {
+  display: grid;
+  grid-template: 100% / repeat(5, 1fr) 5fr;
+  gap: 15px;
+  margin-left: 15px
+}
+
+.navbar-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #FFFFFF;
+  align-self: center;
+  justify-self: center;
+  background-color: #2C0733;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 0;
 }

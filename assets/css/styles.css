@@ -125,3 +125,7 @@ body {
 .navbar-item > p {
   margin: 0;
 }
+
+.content-container img {
+  height: 200px;
+}

@@ -97,7 +97,7 @@ body {
 
 .navbar-container {
   display: grid;
-  grid-template: 100% / repeat(5, 1fr) 5fr;
+  grid-template: 100% / repeat(5, 1fr) 3fr;
   gap: 15px;
   padding-left: 15px;
   border-top: 1px solid #2C0733;
@@ -130,21 +130,108 @@ body {
   width: 100%;
   grid-template: 1fr / 2fr 1fr;
   gap: 15px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #2C0733;
 }
 
 .articles-container {
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr / 100%;
+  grid-template: 1fr 2fr 2fr 2fr 2fr / 100%;
   gap: 15px;
-  width: 100%;
+  width: 90%;
   margin: 10px 0 0 4%;
 }
 
+.articles-header {
+  font-size: 3rem;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+  text-align: center;
+  align-self: center;
+}
+
 .preview-item {
-  
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #2C0733;
 }
 
 .preview-item img {
-  height: 200px;
+  height: 150px;
   float: left;
+  border-radius: 10px;
+  margin: 10px;
+  border: 1px solid #2C0733;
+}
+
+.preview-headline {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 95%;
+  color: #2C0733;
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+.features-container {
+  border: 1px solid #2C0733;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-right: 15px;
+  width: 85%;
+  background-color: #FFFFFF;
+}
+
+.market-movements {
+  border: 5px solid #2C0733;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.market-header {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #C9A7CF;
+  background-color: #2C0733;
+  height: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 25px 0;
+}
+
+.stock-updates {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.green {
+  background-color: lightgreen;
+  border: 1px solid #2C0733;
+}
+
+.red {
+  background-color: lightcoral;
+  border: 1px solid #2C0733;
+}
+
+.stock-index {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #2C0733;
+}
+
+.movement {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  float: right;
+  margin: 0;
+  color: #2C0733;
 }

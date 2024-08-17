@@ -162,7 +162,7 @@ body {
   height: 150px;
   float: left;
   border-radius: 10px;
-  margin: 10px;
+  margin: 2% 10px 2% 2%;
   border: 1px solid #2C0733;
 }
 
@@ -173,7 +173,7 @@ body {
   width: 95%;
   color: #2C0733;
   font-size: 1.5em;
-  padding-top: 30px;
+  padding: 2%;
 }
 
 .features-container {

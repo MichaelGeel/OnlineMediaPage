@@ -192,7 +192,7 @@ body {
   margin: 5px;
 }
 
-.market-header {
+.market-header, .sub-heading {
   font-family: "Merriweather", serif;
   font-weight: 700;
   font-style: normal;
@@ -234,4 +234,55 @@ body {
   float: right;
   margin: 0;
   color: #2C0733;
+}
+
+.user-submissions {
+  border: 5px solid #2C0733;
+  border-radius: 10px;
+  margin: 10px 5px 0 5px;
+}
+
+.submission-box {
+  border-bottom: 1px solid #2C0733;
+}
+
+.submit-title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  margin: 10px 0 0 0;
+  text-align: center;
+  color: #2C0733;
+}
+
+.submit-desc {
+  margin: 20px 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-container {
+  background-color: #2C0733;
+  padding: 20px;
+}
+
+.footer-link, .owner {
+  margin: 0;
+  color:#C9A7CF;
+  padding: 5px;
+}
+
+.footer-a {
+  text-decoration: none;
+  color:#C9A7CF;
+}
+
+.footer-a:visited {
+  color: #805789;
+}
+
+.credits {
+  text-align: right;
 }

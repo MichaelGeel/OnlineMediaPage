@@ -1,12 +1,39 @@
-html {
-    background-color: aliceblue;
-}
-
 body {
     width: 100%;
+    background-color: #F5E2F9;
 }
 
 .contact-container {
     display: grid;
-    grid-template: 300px 60px 100px 2fr max-content /  repeat(3, 25%);
+    grid-template: 300px 60px 100px 2fr 1fr /  repeat(3, 25%);
+}
+
+.title-container {
+    grid-area: 1 / 1 / 2 / 5;
+    justify-self: center;
+}
+
+.np-name {
+    margin: 0;
+    color: #2C0733;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.name-sub {
+  align-self: end;
+  font-size: 2.5rem;
+  margin-left: 10px;
+  margin-bottom: -20px;
+}
+
+.name-main {
+  justify-self: center;
+  font-size: 115px;
+}
+
+.title-container > img {
+    height: 100px;
+    justify-self: center;
 }

@@ -7,7 +7,7 @@ body {
 .page-container {
     width: 100%;
     display: grid;
-    grid-template: 300px 60px 100px 2fr 1fr /  repeat(3, 25%);
+    grid-template: 300px 60px 60px 2fr 1fr /  repeat(3, 25%);
 }
 
 .title-container {
@@ -71,3 +71,31 @@ body {
     margin: 0;
   }
 
+
+
+.footer-container {
+    background-color: #2C0733;
+    padding: 20px;
+    grid-area: 5 / 1 / 6 / 5;
+  }
+  
+.footer-link, .owner {
+    margin: 0;
+    color:#C9A7CF;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.footer-a {
+    color:#C9A7CF;
+  }
+  
+.footer-a:visited {
+    color: #805789;
+  }
+  
+.credits {
+    text-align: right;
+  }

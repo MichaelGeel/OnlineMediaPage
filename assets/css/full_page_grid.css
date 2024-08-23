@@ -1,9 +1,11 @@
 body {
     width: 100%;
     background-color: #F5E2F9;
+    margin: 0;
 }
 
-.contact-container {
+.page-container {
+    width: 100%;
     display: grid;
     grid-template: 300px 60px 100px 2fr 1fr /  repeat(3, 25%);
 }
@@ -11,6 +13,7 @@ body {
 .title-container {
     grid-area: 1 / 1 / 2 / 5;
     justify-self: center;
+    padding-top: 25px;
 }
 
 .np-name {
@@ -31,9 +34,40 @@ body {
 .name-main {
   justify-self: center;
   font-size: 115px;
+  padding-left: 4px;
 }
 
 .title-container > img {
     height: 100px;
     justify-self: center;
 }
+
+.navbar-container {
+    grid-area: 2 / 1 / 3 / 5;
+    display: grid;
+    grid-template: 100% / repeat(5, 1fr) 3fr;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+.navbar-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FFFFFF;
+    align-self: center;
+    justify-self: center;
+    background-color: #2C0733;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+.navbar-item > p {
+    margin: 0;
+  }
+

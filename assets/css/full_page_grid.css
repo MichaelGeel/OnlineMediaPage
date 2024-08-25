@@ -7,7 +7,7 @@ body {
 .page-container {
     width: 100%;
     display: grid;
-    grid-template: 300px 60px 60px 2fr auto /  repeat(3, 25%);
+    grid-template: 25% 90px 80px 50% 25% /  repeat(3, 25%);
 }
 
 .title-container {
@@ -86,14 +86,138 @@ body {
   margin: 0;
 }
 
+.contact-container {
+  grid-area: 4 / 1 / 5 / 3;
+  padding-top: 70px;
+}
+
+.general-queries {
+  margin: 0 10%;
+  width: 80%;
+  margin-bottom: 100px;
+}
+
+.general-queries > p {
+  font-size: 0.8rem;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #2C0733;
+}
+
+.contact-method {
+  margin: 10px 0;
+}
+
+.contact-type {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  color: #2C0733;
+}
+
+.contact-info {
+  width: 50%;
+  margin-left: 50%;
+  color: #2C0733;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-header {
+  color: #2C0733;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.user-submissions {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.user-submissions > p:not(.submit-notice) {
+  font-size: 0.8rem;
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #2C0733;
+}
+
+.submit-notice {
+  color: #2C0733;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
+.locations-container {
+  grid-area: 4 / 3 / 5 / 5;
+  padding-top: 70px;
+}
+
+.office-location {
+  width: 80%;
+  margin: 0 15%;
+  margin-bottom: 50px;
+}
+
+.location-city {
+  color: #2C0733;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.office-info {
+  float: left;
+}
+
+#address {
+  color: #2C0733;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.office-location ul {
+  list-style: none;
+  padding: 0;
+}
+
+li > p {
+  margin: 0;
+}
+
+.office-location > img {
+  height: 150px;
+  width: 150px;
+  margin-left: 30%;
+}
+
 .footer-container {
     background-color: #2C0733;
     padding: 20px;
     grid-area: 5 / 1 / 6 / 5;
+    position: relative;
   }
   
 .footer-link, .owner {
-    margin: 0;
+    margin: 5px;
     color:#C9A7CF;
     padding: 5px;
     font-family: "Roboto", sans-serif;
@@ -110,5 +234,8 @@ body {
   }
   
 .credits {
-    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 10px 10px 0;
   }

@@ -7,7 +7,7 @@ body {
 .page-container {
     width: 100%;
     display: grid;
-    grid-template: 300px 60px 60px 2fr 1fr /  repeat(3, 25%);
+    grid-template: 300px 60px 60px 2fr auto /  repeat(3, 25%);
 }
 
 .title-container {
@@ -71,7 +71,20 @@ body {
     margin: 0;
   }
 
+.page-title-container {
+  grid-area: 3 / 1 / 4 / 5;
+  align-self: center;
+}
 
+.page-title {
+  color: #2C0733;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
 
 .footer-container {
     background-color: #2C0733;

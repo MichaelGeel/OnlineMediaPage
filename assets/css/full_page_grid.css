@@ -95,6 +95,10 @@ body {
   margin: 0 10%;
   width: 80%;
   margin-bottom: 100px;
+  border: 1px solid #2C0733;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #FFFFFF;
 }
 
 .general-queries > p {
@@ -141,6 +145,10 @@ body {
 .user-submissions {
   width: 80%;
   margin: 0 10%;
+  border: 1px solid #2C0733;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #FFFFFF;
 }
 
 .user-submissions > p:not(.submit-notice) {
@@ -164,11 +172,16 @@ body {
 .locations-container {
   grid-area: 4 / 3 / 5 / 5;
   padding-top: 70px;
+  border: 1px solid #2C0733;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  margin: 70px 10% 50px 5%;
 }
 
 .office-location {
   width: 80%;
-  margin: 0 15%;
+  margin: 0 10%;
   margin-bottom: 50px;
 }
 
@@ -239,3 +252,114 @@ li > p {
     right: 0;
     padding: 0 10px 10px 0;
   }
+
+  /* 
+  Responsive Widths:
+
+  Width: 750
+  -Office locations wrap under the contact information.
+  -All containers get centered in the screen.
+  -Grid layout changes entirely.
+  */
+@media (max-width: 1550px) {
+  .office-location > img {
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .office-location > img {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .page-container {
+    width: 100%;
+    display: grid;
+    grid-template: 25% 90px 80px 55% 25% /  repeat(3, 25%);
+  }
+
+  .office-info {
+    float: none;
+  }
+
+  .office-location > img {
+    margin-left: 0;
+    height: 200px;
+    width: 200px;
+  }
+
+  .locations-container {
+    margin-bottom: 100px;
+  }
+
+  .contact-info {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .navbar-container {
+    grid-template: 100% / repeat(5, 1fr);
+    padding-left: 4%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 750px) {
+  .page-container {
+    width: 100%;
+    display: grid;
+    grid-template: 25% 90px 80px 25% 30% 25% /  repeat(3, 25%);
+}
+
+  .contact-container {
+    grid-area: 4 / 1 / 5 / 5;
+  }
+
+  .locations-container {
+    grid-area: 5 / 1 / 6 / 5;
+  }
+
+  .office-location {
+    width: 70%;
+    margin: 0 20%;
+  }
+
+  .office-info {
+    float: left;
+  }  
+
+  .office-location > img {
+    margin-left: 10%;
+    height: 150px;
+    width: 150px;
+  }
+
+  .general-queries {
+    margin: 0 20%;
+    width: 60%;
+  }
+
+  .user-submissions {
+    margin: 0 20%;
+    width: 60%;
+  }
+
+  .footer-container {
+    grid-area: 6 / 1 / 7 / 5;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-item {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+
+}

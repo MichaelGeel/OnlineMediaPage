@@ -57,7 +57,7 @@ Fonts:
 
 .main-container {
   display: grid;
-  grid-template: 1045px 500px / 3fr 1fr;
+  grid-template: auto 500px / 3fr 1fr;
   gap: 25px;
   margin: 25px;
 }
@@ -117,5 +117,10 @@ Fonts:
   color: #FFFFFF;
   font-size: 0.75rem;
   margin: 0;
+  width: 200px;
+}
+
+.author-img {
+  height: 200px;
   width: 200px;
 }

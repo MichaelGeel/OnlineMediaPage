@@ -57,7 +57,7 @@ Fonts:
 
 .main-container {
   display: grid;
-  grid-template: auto 500px / 3fr 1fr;
+  grid-template: auto/ 3fr 1fr;
   gap: 25px;
   margin: 25px;
 }
@@ -102,7 +102,7 @@ Fonts:
   width: 200px;
   float: left;
   margin: 0 20px 20px 0;
-  background-color: #805789;
+  background-color: #F5E2F9;
 }
 
 .article-img {
@@ -114,13 +114,44 @@ Fonts:
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
-  color: #FFFFFF;
+  color: #2C0733;
   font-size: 0.75rem;
   margin: 0;
   width: 200px;
 }
 
+.author-info {
+  border: 1px solid #2C0733;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.author-info > h3 {
+  margin-top: 0;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #2C0733;
+}
+
 .author-img {
   height: 200px;
   width: 200px;
+  float: left;
+  border: 1px solid #2C0733;
+  margin-right: 10px;
+}
+
+.author-info > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2C0733;
+}
+
+.bold-text {
+  font-weight: 500;
 }

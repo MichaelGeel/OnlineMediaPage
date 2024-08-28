@@ -51,10 +51,6 @@ Fonts:
 }
 */
 
-.suggestion-image {
-  height: 200px;
-}
-
 .main-container {
   display: grid;
   grid-template: auto/ 3fr 1fr;
@@ -154,4 +150,45 @@ Fonts:
 
 .bold-text {
   font-weight: 500;
+}
+
+.suggestion-container {
+  border: 1px solid #2C0733;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template: 100px repeat(3, 1fr) / 100%;
+}
+
+.suggestion-header {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #2C0733;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.suggestion-item {
+  border: 1px solid #2C0733;
+  margin-bottom: 30px;
+  width: 300px;
+  border-radius: 10px;
+  justify-self: center;
+}
+
+.suggestion-image {
+  height: 300px;
+  border-radius: 10px;
+  border-bottom: 1px solid #2C0733;
+}
+
+.article-name {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #2C0733;
+  font-size: 1.75rem;
+  margin: 0 20px 0 20px;
 }

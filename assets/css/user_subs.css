@@ -141,3 +141,17 @@ Fonts:
     border-bottom-right-radius: 10px;;
 }
 
+@media (max-width: 750px) {
+    .main-container {
+        grid-template: 80px 150px repeat(2, 800px) / 10% repeat(2, 40%) 10%;
+    }
+
+    .cat-container {
+        grid-template: repeat(4, 25%) / 100%;
+    }
+
+    .submit-item {
+        width: auto;
+        height: min-content;
+    }
+}

@@ -1,0 +1,143 @@
+/* Colours:
+
+#C9A7CF - Light Violet
+#805789 - Violet
+#F5E2F9 - Light Pink
+#FFFFFF - White
+#471850 - Deep Purple
+#2C0733 - Dark Purple
+#000000 - Black
+
+Fonts:
+
+--Headers:
+
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+--Body:
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+*/
+
+.main-container {
+    width: 100%;
+    display: grid;
+    grid-template: 80px 100px repeat(2, 400px) / 10% repeat(2, 40%) 10%;
+    margin: 0 auto;
+}
+
+.heading-item {
+    grid-area: 1 / 1 / 2 / 5;
+    justify-self: center;
+    align-self: center;
+}
+
+#pg-ttl {
+    color: #2C0733;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.submit-item {
+    grid-area: 2 / 2 / 3 / 4;
+    background-color: #FFFFFF;
+    border: 1px solid #2C0733;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: max-content;
+    width: max-content;
+    justify-self: center;
+}
+
+.submit-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+#sub-note {
+    font-size: 0.75rem;
+    margin-top: 10px;
+    color:#2C0733;
+}
+
+#submit-link {
+    color: #805789;
+    text-decoration: none;
+}
+
+#submit-link:visited {
+    color:#C9A7CF;
+}
+
+.cat-container {
+    grid-area: 3 / 2 / 5 / 4;
+    display: grid;
+    grid-template: repeat(2, 48%) / repeat(2, 48%);
+    column-gap: 4%;
+    margin: 0 auto;
+}
+
+.sub-category > h3 {
+    color: #2C0733;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.cat-img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sub-category > p {
+    background-color: #FFFFFF;
+    height: max-content;
+    margin-top: -5px;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;;
+}
+
